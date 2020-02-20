@@ -39,15 +39,13 @@ def total_gross(source)
 grand_total = 0
 i = 0 
 while i < source.length do
-  grand_total += directors_totals[gross_for_director][i]
+  grand_total += directors_totals[i]
   i += 1 
 
   end
   grand_total
 end
-p total_gross(directors_database)
-
-# hash[key] = value
+#p total_gross(directors_database)
 
   # Should use methods:
   # 1. directors_totals: returns a Hash of { dir_name => gross }
