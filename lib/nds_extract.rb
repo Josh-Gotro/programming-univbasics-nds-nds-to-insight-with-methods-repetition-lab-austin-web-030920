@@ -45,6 +45,7 @@ while i < source.length do
   end
   grand_total
 end
+p total_gross(directors_database)
 
 # hash[key] = value
 
