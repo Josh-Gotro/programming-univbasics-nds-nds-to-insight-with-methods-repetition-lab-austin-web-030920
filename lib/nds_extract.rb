@@ -40,7 +40,8 @@ total = directors_totals(source)
 list = list_of_directors(source)
 i = 0 
 grand_total = 0
- while list[i]
+
+ while i < source.length
  grand_total += total[list[i]]
  i += 1
  end
