@@ -38,6 +38,8 @@ end
 def total_gross(source)
 i = 0 
 grand_total = 0
+total = directors_totals(source)
+list = list_of_directors(source)
 
 grand_total
 end
