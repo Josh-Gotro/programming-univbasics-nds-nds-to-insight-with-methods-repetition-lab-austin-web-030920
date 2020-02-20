@@ -40,7 +40,9 @@ i = 0
 grand_total = 0
 total = directors_totals(source)
 list = list_of_directors(source)
-
+ while list[i]
+ grand_total += total
+ end
 grand_total
 end
 #p total_gross(directors_database)
