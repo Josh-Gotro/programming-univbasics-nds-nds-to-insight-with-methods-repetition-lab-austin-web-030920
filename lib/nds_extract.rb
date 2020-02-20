@@ -38,10 +38,7 @@ end
 def total_gross(source)
 i = 0 
 grand_total = 0
-while i < source.count do
-grand_total += directors_totals([source[i][gross_for_director(list_of_directors(source))]])
-i +=1
-end
+
 grand_total
 end
 #p total_gross(directors_database)
