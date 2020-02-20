@@ -41,7 +41,7 @@ grand_total = 0
 while i < source.count do
 grand_total += directors_totals[source[i]]
 i +=1
-
+end
 grand_total
 end
 #p total_gross(directors_database)
