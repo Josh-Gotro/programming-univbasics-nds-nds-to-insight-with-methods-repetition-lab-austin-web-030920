@@ -42,7 +42,7 @@ i = 0
 grand_total = 0
 
  while i < source.length
- grand_total += total[list][i]
+ grand_total += total[list[i]]
  i += 1
  end
 grand_total
