@@ -39,7 +39,11 @@ def total_gross(source)
 gross_by_director = {}
 i = 0 
 while i < source.length do
-  directors_totals(source[i])
+  gross_by_director[list_of_directors(source[i])] = directors_totals(source[i])
+  i += 1
+
+  end
+  gross_by_director
 end
 
 
