@@ -36,11 +36,11 @@ def list_of_directors(source)
 end
 
 def total_gross(source)
-grand_total = 0
 i = 0 
-while i < source.length do
-  grand_total += directors_totals(source[][i])
-  i += 1 
+grand_total = 0
+grand_total += directors_totals[i]
+i +=1
+
 
   end
   grand_total
