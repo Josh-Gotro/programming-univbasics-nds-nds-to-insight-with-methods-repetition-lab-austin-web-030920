@@ -46,7 +46,7 @@ while i < source.length do
   gross_by_director
 end
 
-
+# hash[key] = value
 
   # Should use methods:
   # 1. directors_totals: returns a Hash of { dir_name => gross }
