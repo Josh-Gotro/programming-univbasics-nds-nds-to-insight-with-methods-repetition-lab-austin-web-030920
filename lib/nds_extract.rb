@@ -36,14 +36,14 @@ def list_of_directors(source)
 end
 
 def total_gross(source)
-gross_by_director = hash.new
+grand_total = 0
 i = 0 
 while i < source.length do
-  gross_by_director[list_of_directors(source[i])] = directors_totals(source[i])
+  directors_totals[]
   i += 1
 
   end
-  gross_by_director
+  grand_total
 end
 
 # hash[key] = value
