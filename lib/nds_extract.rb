@@ -36,7 +36,7 @@ def list_of_directors(source)
 end
 
 def total_gross(source)
-gross_by_director = {}
+gross_by_director = hash.new
 i = 0 
 while i < source.length do
   gross_by_director[list_of_directors(source[i])] = directors_totals(source[i])
