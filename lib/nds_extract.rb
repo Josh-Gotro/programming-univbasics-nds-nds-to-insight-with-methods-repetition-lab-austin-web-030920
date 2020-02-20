@@ -39,7 +39,7 @@ def total_gross(source)
 i = 0 
 grand_total = 0
 while i < source.count do
-grand_total += directors_totals[source[i]]
+grand_total += directors_totals([source[i]])
 i +=1
 end
 grand_total
