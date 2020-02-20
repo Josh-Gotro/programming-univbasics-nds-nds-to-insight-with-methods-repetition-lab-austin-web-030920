@@ -41,9 +41,7 @@ grand_total = 0
 grand_total += directors_totals[i]
 i +=1
 
-
-  end
-  grand_total
+grand_total
 end
 #p total_gross(directors_database)
 
