@@ -48,6 +48,7 @@ grand_total = 0
 grand_total
 end
 
+# {tom: $30, rich: $62, deedee: $1000}[[tom, rich, deedee][i]]
 
   # Should use methods:
   # 1. directors_totals: returns a Hash of { dir_name => gross }
